@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="fadeIn.js"></script>
+<script src="fadeOut.js"></script>
+<style>
+#foo { background: #f1f1f1; border: 1px solid #333; width:100px; height: 100px; }
+</style>
+</head>
+<body>
+<button onclick="doFadeIn()">fadeIn</button><button onclick="doFadeOut()">fadeOut</button>
+<div id="foo"></div>
+<script>
+var foo = document.getElementById('foo');
+function doFadeIn() {
+    fadeIn(foo);
+}
+
+function doFadeOut() {
+    fadeOut(foo);
+}
+
+</script>
+</body>
+</html>
