@@ -1,7 +1,7 @@
 /**
  * each
  * 
- * @author LangSyne
+ * @author LangSyne,errorrik
  */
 
 /*

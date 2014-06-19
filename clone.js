@@ -1,7 +1,7 @@
 /**
  * clone
  * 
- * @author LangSyne
+ * @author LangSyne,errorrik
  */
 
 
