@@ -1,7 +1,7 @@
 /**
  * addClass
  * 
- * @author LangSyne
+ * @author LangSyne, errorrik
  */
 
 
@@ -10,3 +10,5 @@ function addClass(element, className) {
     classNames.push( className );
     element.className = classNames.join( ' ' );
 }
+
+
